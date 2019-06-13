@@ -1,0 +1,47 @@
+.box{
+    height:100px;
+    width: 100px;
+    background-color: #00ffff;
+    /*animation-name: rotating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; this eliminates any brakes or stops between interactions */
+     
+}
+
+/* Challenge 3 */
+.box:hover{
+    transform: translateX(100%);
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+
+
+
+
+
+/* Challenge 2 */
+/*
+@keyframes rotating{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+*/
+
+
+
+/* Challenge 1 */
+/*
+transition make the change smooth, instead of jumping to the end result 
+.box:hover{
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    height: 200px;
+    width: 200px;
+    
+} */
